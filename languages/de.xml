@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.smallbuttons_brunzenbaer"><![CDATA[Brunzenbär-Einstellungen]]></item>
+		<item name="wcf.acp.option.wbb_threadsmallbutton_brunzenbaer"><![CDATA[Button "Brunzenbär-Wahl" anzeigen]]></item>
+	</category>
+</language>

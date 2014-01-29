@@ -1,0 +1,3 @@
+{if WBB_THREADSMALLBUTTON_BRUNZENBAER && $__wcf->user->userID && $post->userID && $__wcf->user->userID!=$post->userID}
+<li class="brunzenbaerLink jsOnly"><a href="{link application='wbb' controller='BoardList'}{/link}" data-thread-id="{@$thread->threadID}" data-post-id="{@$post->postID}" data-user-id="{@$__wcf->user->userID}" title="Die Brunzenbär-Wahl ist eine Gameware-exklusive Community-Wahl zum besten Beitrag/Thread des Monats. Die Preisträger ernten Ruhm, Ehre und Gold." class="button jsTooltip"><span class="icon icon16 icon-star"></span> <span>Nominieren</span></a></li>
+{/if}

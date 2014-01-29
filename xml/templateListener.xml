@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/templatelistener.xsd">
+	<import>
+		<templatelistener name="threadPostListBrunzenbaer">
+			<environment>user</environment>
+			<templatename>threadPostList</templatename>
+			<eventname>messageOptions</eventname>
+			<templatecode><![CDATA[{include file='__threadPostListBrunzenbaer' application='wbb'}]]></templatecode>
+		</templatelistener>
+		<templatelistener name="threadBrunzenbaer">
+			<environment>user</environment>
+			<templatename>thread</templatename>
+			<eventname>infoBoxes</eventname>
+			<templatecode><![CDATA[{include file='__threadBrunzenbaer' application='wbb'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>
