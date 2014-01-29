@@ -4,7 +4,7 @@
 		<packagename><![CDATA[Brunzenbaer]]></packagename>
 		<packagedescription><![CDATA[Brunzenbär (Community-Wahl-Plugin)]]></packagedescription>
 		<version>0.9.0</version>
-		<date>2014-01-28</date>
+		<date>2014-01-30</date>
 		<license>LGPL</license>
 	</packageinformation>
 
@@ -18,11 +18,12 @@
 	</requiredpackages>
 	
 	<instructions type="install">
-		<instruction type="template" application="wbb">templates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template" application="wbb">templates-wbb.tar</instruction>
+		<instruction type="template" application="wcf">templates-wcf.tar</instruction>
+		<instruction type="language">languages/*.xml</instruction>
 		
 		<instruction type="option">xml/option.xml</instruction>
 		<instruction type="templateListener">xml/templateListener.xml</instruction>
-		
-		<instruction type="language">languages/de.xml</instruction>
 	</instructions>
 </package>
