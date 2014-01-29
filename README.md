@@ -1,7 +1,7 @@
 Brunzenbär
 ==========
 
-**DO NOT INSTALL - THIS CODE IS AS IS AND DOES NOT REFLECT AN OFFICIAL WBB PACKAGE**
+**DO NOT INSTALL** :scream:
 
 A Woltlab BB 4.x Community Voting plugin for WCF 2.x
 
