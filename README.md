@@ -5,4 +5,4 @@ Brunzenbär
 
 *DO NOT INSTALL ++ DO NOT FORK ++ DO NOT SEND PULL REQUESTS*
 
-*Send me beer instead.*
+*Send beer instead.*
