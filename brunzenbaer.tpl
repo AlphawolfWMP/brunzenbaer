@@ -3,29 +3,39 @@
 	<title>Brunzenbär Admin - {PAGE_TITLE|language}</title>
 
 	{include file='headInclude' sandbox=false}
+	
+	<link rel="canonical" href="{link controller='BrunzenbaerPage'}{/link}" />
 </head>
 
 <body id="tpl{$templateName|ucfirst}">
 	{include file='header'}
 
 	<header class="boxHeadline">    
-		<h1>Brunzenbär Admin</h1>  
+		<h1>Brunzenbär Admin</h1>
 	</header>
 
 	{include file='userNotice'}
-
-	<div class="container marginTop">
-		<ul class="containerList exampleList">
-			<li class="exampleBox">
-				<div>
-					<div class="containerHeadline">
-						<h3>Admin-Seite für die Brunzenbär-Nominierungen</h3>
-						<p>lalalalala</p>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
+	
+	<form method="post" action="">
+		<div class="container containerPadding marginTop">
+			<fieldset>
+				<legend>Admin-Seite für die Brunzenbär-Nominierungen</legend>
+				
+				<dl>
+					<dt><label for="period">Zeitraum</label></dt>
+					<dd>
+						{@$periodform}
+					</dd>
+				</dl>
+			</fieldset>
+		</div>
+	
+		<div class="formSubmit">
+			<input type="submit" value="Absenden" accesskey="s" />
+		</div>
+	</form>
+	
+	{@$results}
 
 	{include file='footer'}
 </body>

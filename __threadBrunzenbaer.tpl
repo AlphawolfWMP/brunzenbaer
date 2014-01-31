@@ -10,7 +10,7 @@
 				var os_postid = $(this).data("post-id");
 				var os_userid = $(this).data("user-id");
 				
-				WCF.System.Confirmation.show('Willst Du diesen Beitrag wirklich zur "Brunzenbär des Monats"-Wahl nominieren? Du kannst die Nominierung danach nicht mehr zurückziehen.',
+				WCF.System.Confirmation.show('Willst Du diesen Beitrag wirklich zur "Brunzenbär des Monats"-Wahl für den Monat {@TIME_NOW|date:"F"} nominieren? Du kannst die Nominierung danach nicht mehr zurückziehen.',
 					$.proxy(function (action) {
 						if (action == 'confirm') {
 							var brunzenbaerAPI = "http://api.schloebe.de/brunzenbaer/api.php";
@@ -30,8 +30,6 @@
 									$notification.show(null, 6000);
 								}
 							});
-							
-							//console.log(os_threadid + ':' + os_postid + ':' + os_userid);
 						}
 					}, this));
 				return false;
